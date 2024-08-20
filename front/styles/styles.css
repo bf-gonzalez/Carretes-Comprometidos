@@ -1,0 +1,141 @@
+
+
+
+
+header{
+	width: 100%;
+	height: 420px;
+	background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5b87e56e, #36d1dc4b ), url(../img/carrete.jpg );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5b87e56b, #4ed8e225), url(../img/carrete.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+nav, a{
+    padding: 5px;
+    color: black;
+    
+}
+
+.Titulo{
+    font-size: 50px;
+    text-align: left;
+    color: wheat
+    
+}
+
+
+main{
+ 
+    background-color:#ffffff71;
+    
+}
+
+
+.Sobre_la_pag{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.Sobre_la_pag, p{
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+.con-logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.logos{
+    
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.bienvenidos{
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.Tarjetas, h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.Tarjetas{
+    margin-top: 0px;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+#movies-container{
+    display: flex;
+    
+    padding: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.movie-card, img{
+    height: 300px;
+    margin-top: 10px;
+    width: 300px;
+
+}
+.movie-card{
+    
+    
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    height: 525px;
+    background-color: wheat;
+    
+    
+    
+    text-align: center;
+    
+}
+.tituloPeli{
+    font-size: 20px;
+}
+
+
+.description{
+    font-size: 15px;
+    text-align: center;
+    
+}
+

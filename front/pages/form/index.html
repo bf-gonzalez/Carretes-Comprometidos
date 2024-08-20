@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../../styles/reset.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+
+        <h1 class="CreateMovie">Create Movie</h1>
+
+        <a class="volver" href="../../index.html">Volver</a>
+
+        <div style="height: 150px; overflow: hidden;"class= "wave" ><svg 
+            viewBox="0 0 400 150" preserveAspectRatio="none" style="height: 100%;
+             width: 100%;"><path d="M-0.84,16.27 C159.98,198.83 255.92,-62.65 498.59,21.22 L500.00,150.00 L0.00,150.00 Z" style="
+             stroke: none; fill: #ffffff;"></path></svg>
+        </div>
+    </header>
+    <main>
+        <div class="contenedorForm">
+            
+            <form class="form">
+                <label for="title">Titulo</label>
+                <input type="text" name="title" id="title" required>
+                <label for="year">Año</label>
+                <input type="number" name="year" id="year" required>
+                <label for="rate">Rate</label>
+                <input type="number" name="rate" id="rate" required>
+                <label for="director">Director</label>
+                <input type="text" name="director" id="director" required>
+                <label for="duration">Duracion</label>
+                <input type="text" name="duration" id="duration" required>
+                <label for="gnre">Genero</label>
+                <div class="genre-checkboxes">
+
+                    <input type="checkbox" name="genre" value="Action" id="genre-action">
+                    <label for="genre-action">Action</label>
+
+                    <input type="checkbox" name="genre" value="Adventure" id="genre-adventure">
+                    <label for="genre-adventure">Adventure</label>
+
+                    <input type="checkbox" name="genre" value="Comedy" id="genre-comedy">
+                    <label for="genre-comedy">Comedy</label>
+
+                    <input type="checkbox" name="genre" value="Drama" id="genre-drama">
+                    <label for="genre-drama">Drama</label>
+                    
+                    <input type="checkbox" name="genre" value="Fantacy" id="genre-fantacy">
+                    <label for="genre-fantacy">Fantacy</label>
+
+                    <input type="checkbox" name="genre" value="Horror" id="genre-horror">
+                    <label for="genre-horror">Horror</label>
+
+                    <input type="checkbox" name="genre" value="Mystery" id="genre-mystery">
+                    <label for="genre-mystery">Mystery</label>
+
+                    <input type="checkbox" name="genre" value="Sci-Fi" id="genre-scifi">
+                    <label for="genre-scifi">Sci-Fi</label>    
+                </div>
+                
+                <label for="poster">Poster</label>
+                <input type="text" name="poster" id="poster" required>
+
+                <button type="submit">Create</button>
+                <button type="button" id="clearButton">Clear</button>
+
+            </form>
+        </div>
+    </main>
+    <script src="../../public/bundle.js"></script>
+</body>
+</html>

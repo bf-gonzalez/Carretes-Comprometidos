@@ -1,0 +1,246 @@
+
+body{
+	font-family: 'open sans';
+}
+
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+header{
+	width: 100%;
+	height: 420px;
+	background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5b87e586, #36d1dc6b ), url(../img/imgPagEstatica/fondo\ 1.jpg );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5b87e56b, #36d1dc65), url(../img/imgPagEstatica/fondo\ 1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+main{
+    background-color:#ffffff;
+    
+}
+
+main .contenedor_sobre_mi{
+	padding: 30px 0 60px 0;
+    background-color: #ffffff;
+}
+
+#volver{
+    margin-top: 30px;
+}
+
+
+/*Cosas del header*/
+.perfil{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nombre{
+    font-size: 55px;
+    width: 5%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.foto_nombre{
+    padding-top: 5%;
+    text-align: right;
+	font-size: 80px;
+	color: #fff;
+	width: 600px;
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+
+
+/*cosas del main*/
+.contenedor_sobre_mi{
+    
+    display: flex;
+	justify-content: center;
+
+    
+    
+}
+.sobremi_parrafo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5% 5% 5% 5%;
+    border-color: #121313;
+    border-width: 5px;
+    border-radius: 50px;
+    border-style: solid solid solid solid;
+    padding: 3%;
+}
+.sobre_mi{
+
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    
+    margin-bottom: 5px;
+}
+
+.contenedor_tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.titulo_tecnologia{
+    display: flex;
+    
+    margin: auto;
+    justify-content: center;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.tecnologias_fotos{
+    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_tec{
+    width: 180px;
+    height: 150px;
+    margin: auto;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 10px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.747), rgb(44, 44, 99));
+    border-radius: 40px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.contenedor_actividades{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: #26272763;
+    border-radius: 30px;
+    width: 40%;
+
+}
+
+.titulo_actividades{
+    font-size: 30px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    align-content: center;
+}
+
+#input1{
+    width: 400px;
+    border-radius: 40px;
+}
+
+.caja{
+    margin-top: 15px;
+}
+
+#caja{
+    
+    width: 400px;
+    border-radius: 20px;
+}
+
+.input2{
+    margin-top: 15px;
+
+}
+
+#input2{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.boton{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#boton{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.747), rgb(44, 44, 99));
+
+}
+#agregar_act{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    
+    
+    
+}
+
+#tarjet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #26272763;
+    border-radius: 15px;
+    box-sizing: border-box;
+    
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
